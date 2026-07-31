@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(uv add *)",
-      "Bash(jupyter nbconvert *)"
+      "Bash(jupyter nbconvert *)",
+      "Bash(python -c ' *)",
+      "Bash(./.venv/Scripts/python.exe -c ' *)"
     ]
   }
 }

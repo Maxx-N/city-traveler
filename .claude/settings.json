@@ -4,7 +4,10 @@
       "Bash(uv add *)",
       "Bash(jupyter nbconvert *)",
       "Bash(python -c ' *)",
-      "Bash(./.venv/Scripts/python.exe -c ' *)"
+      "Bash(./.venv/Scripts/python.exe -c ' *)",
+      "Bash(python -c \"import gradio; print\\(gradio.__version__\\)\")",
+      "Bash(.venv/Scripts/python.exe -c \"import gradio; print\\(gradio.__version__\\)\")",
+      "Bash(.venv/Scripts/python.exe -c ' *)"
     ]
   }
 }

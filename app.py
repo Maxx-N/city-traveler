@@ -17,3 +17,11 @@ GENERAL CONCEPT:
     - If scraping the Wikipedia page failed:
         - Displays a message to the user, saying so
 """
+
+from dotenv import load_dotenv
+
+load_dotenv()
+
+from chat import chat_with_ui
+
+chat_with_ui()
